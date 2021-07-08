@@ -1,0 +1,18 @@
+### 
+
+GET http://localhost:3000 HTTP/1.1
+
+###
+
+GET http://localhost:3000/api/blogposts/ HTTP/1.1
+
+###
+GET http://localhost:3000/api/blogposts/16 HTTP/1.1
+
+### GET all users
+
+GET http://localhost:3000/api/users/ HTTP/1.1
+
+### GET user by ID
+
+GET http://localhost:3000/api/users/7 HTTP/1.1
